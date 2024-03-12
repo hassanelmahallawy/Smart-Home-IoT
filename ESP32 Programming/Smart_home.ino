@@ -14,12 +14,12 @@ using namespace std;
 #define WIFI_PASSWORD "BeastlyX"
 
 // Firebase credentials
-#define API_KEY "AIzaSyAhcfFkMkS3R3UbheWs1XPMbPFRKaP26lU"
-#define USER_EMAIL "eiadsamihha@gmail.com"
+#define API_KEY ""
+#define USER_EMAIL ""
 #define USER_PASSWORD "124578"
 
 // Insert RTDB URLefine the RTDB URL
-#define DATABASE_URL "https://iot-final-pro-default-rtdb.europe-west1.firebasedatabase.app/"
+#define DATABASE_URL ""
 
 // Initialize Firebase
 FirebaseData fbdo;
@@ -27,12 +27,12 @@ FirebaseAuth auth;
 FirebaseConfig config;
 FirebaseJson json;
 
-String ir_path = "Smart_Home/Intruder";                        // password yeb2a sa7 (change value to owner)  
-String door_path = "Smart_Home/Actuators/door";                // connect elopened door with time             
-String window_path = "Smart_Home/Actuators/Window";            // Touch sensor w after the fire alert         
-String flame_path = "Smart_Home/Sensors/Flame";                // Fire alert                                  
-String ldr_path = "Smart_Home/Sensors/LDR";                    // Sunny or cloudy                            
-String doorTime_path = "Smart_Home/Actuators/Latest_Entrance"; // latest time from the beginning of project
+String ir_path = "Smart_Home/Intruder";                
+String door_path = "Smart_Home/Actuators/door";                      
+String window_path = "Smart_Home/Actuators/Window";         
+String flame_path = "Smart_Home/Sensors/Flame";                                 
+String ldr_path = "Smart_Home/Sensors/LDR";                                       
+String doorTime_path = "Smart_Home/Actuators/Latest_Entrance"
 
 const int buzzerPin = 32;
 const int LDR_PIN = 35;
